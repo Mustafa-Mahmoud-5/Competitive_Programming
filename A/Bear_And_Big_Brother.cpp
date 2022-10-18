@@ -5,7 +5,7 @@ int main() {
 	cin >> a >> b;
 
 	int c = 0;
-	while(b >= a) {
+	while(b >=	 a) {
 		a *= 3;
 		b *= 2;
 		c++;
