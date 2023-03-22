@@ -25,38 +25,3 @@ void solve_NLOGN() {
 int main() {
 	solve_NLOGN();
 }
-
-// void solve(){
-// 		int k; cin >> k;
-// 	string s; cin >> s;
-// 	int n = s.size();
-// 	int arr[n];
-// 	arr[0] = (s[0] - 48);
-
-// 	for(int i = 1; i <n; i++) {
-// 		arr[i] = arr[i-1] + (s[i] - 48);
-// 	}
-
-// 	// cout << "[ ";
-// 	// for(int i = 0; i < n; i++) {
-// 	// 	cout << arr[i] << " ";
-// 	// }
-// 	// cout << "]";
-
-// 	int c = 0;
-// 	for(int i = 0; i < n; i++) {
-// 		if(arr[i] == k) {
-// 			c++;
-// 		}
-
-// 		int j = 0;
-// 		while(j < i) {
-// 			if((arr[i] - k) == arr[j]) {
-// 				c++;
-// 			}
-// 			j++;
-// 		}
-// 	}
-// 	cout << c << endl;
-
-// }
